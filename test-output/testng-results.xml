@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19460" started-at="2018-02-15T19:59:52Z" finished-at="2018-02-15T20:00:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19460" started-at="2018-02-15T19:59:52Z" finished-at="2018-02-15T20:00:11Z">
+      <class name="day_1.Login">
+        <test-method status="PASS" signature="browserinit()[pri:0, instance:day_1.Login@3532ec19]" name="browserinit" is-config="true" duration-ms="12780" started-at="2018-02-16T01:29:52Z" finished-at="2018-02-16T01:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinit -->
+        <test-method status="PASS" signature="loginCT()[pri:0, instance:day_1.Login@3532ec19]" name="loginCT" duration-ms="4964" started-at="2018-02-16T01:30:04Z" finished-at="2018-02-16T01:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCT -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:day_1.Login@3532ec19]" name="closeBrowser" is-config="true" duration-ms="1681" started-at="2018-02-16T01:30:09Z" finished-at="2018-02-16T01:30:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- day_1.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
