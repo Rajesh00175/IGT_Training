@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19460" started-at="2018-02-15T19:59:52Z" finished-at="2018-02-15T20:00:11Z">
+  <suite name="Default suite" duration-ms="28448" started-at="2018-02-19T18:52:10Z" finished-at="2018-02-19T18:52:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19460" started-at="2018-02-15T19:59:52Z" finished-at="2018-02-15T20:00:11Z">
-      <class name="day_1.Login">
-        <test-method status="PASS" signature="browserinit()[pri:0, instance:day_1.Login@3532ec19]" name="browserinit" is-config="true" duration-ms="12780" started-at="2018-02-16T01:29:52Z" finished-at="2018-02-16T01:30:04Z">
+    <test name="Default test" duration-ms="28448" started-at="2018-02-19T18:52:10Z" finished-at="2018-02-19T18:52:39Z">
+      <class name="com.day_2.FabHotel_Search">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.day_2.FabHotel_Search@3532ec19]" name="beforeTest" is-config="true" duration-ms="18743" started-at="2018-02-20T00:22:10Z" finished-at="2018-02-20T00:22:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserinit -->
-        <test-method status="PASS" signature="loginCT()[pri:0, instance:day_1.Login@3532ec19]" name="loginCT" duration-ms="4964" started-at="2018-02-16T01:30:04Z" finished-at="2018-02-16T01:30:09Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="searchHotel()[pri:1, instance:com.day_2.FabHotel_Search@3532ec19]" name="searchHotel" duration-ms="6783" started-at="2018-02-20T00:22:29Z" finished-at="2018-02-20T00:22:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginCT -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:day_1.Login@3532ec19]" name="closeBrowser" is-config="true" duration-ms="1681" started-at="2018-02-16T01:30:09Z" finished-at="2018-02-16T01:30:11Z">
+        </test-method> <!-- searchHotel -->
+        <test-method status="PASS" signature="hotelList()[pri:2, instance:com.day_2.FabHotel_Search@3532ec19]" name="hotelList" duration-ms="621" started-at="2018-02-20T00:22:36Z" finished-at="2018-02-20T00:22:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- day_1.Login -->
+        </test-method> <!-- hotelList -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.day_2.FabHotel_Search@3532ec19]" name="afterTest" is-config="true" duration-ms="2255" started-at="2018-02-20T00:22:37Z" finished-at="2018-02-20T00:22:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.day_2.FabHotel_Search -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
