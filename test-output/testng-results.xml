@@ -1,25 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28448" started-at="2018-02-19T18:52:10Z" finished-at="2018-02-19T18:52:39Z">
+  <suite name="Default suite" duration-ms="84707" started-at="2018-02-20T18:39:57Z" finished-at="2018-02-20T18:41:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28448" started-at="2018-02-19T18:52:10Z" finished-at="2018-02-19T18:52:39Z">
+    <test name="Default test" duration-ms="84707" started-at="2018-02-20T18:39:57Z" finished-at="2018-02-20T18:41:22Z">
       <class name="com.day_2.FabHotel_Search">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.day_2.FabHotel_Search@3532ec19]" name="beforeTest" is-config="true" duration-ms="18743" started-at="2018-02-20T00:22:10Z" finished-at="2018-02-20T00:22:29Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.day_2.FabHotel_Search@ae45eb6]" name="beforeTest" is-config="true" duration-ms="18615" started-at="2018-02-21T00:09:57Z" finished-at="2018-02-21T00:10:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="searchHotel()[pri:1, instance:com.day_2.FabHotel_Search@3532ec19]" name="searchHotel" duration-ms="6783" started-at="2018-02-20T00:22:29Z" finished-at="2018-02-20T00:22:36Z">
+        <test-method status="PASS" signature="searchHotel()[pri:1, instance:com.day_2.FabHotel_Search@ae45eb6]" name="searchHotel" duration-ms="5553" started-at="2018-02-21T00:10:16Z" finished-at="2018-02-21T00:10:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchHotel -->
-        <test-method status="PASS" signature="hotelList()[pri:2, instance:com.day_2.FabHotel_Search@3532ec19]" name="hotelList" duration-ms="621" started-at="2018-02-20T00:22:36Z" finished-at="2018-02-20T00:22:37Z">
+        <test-method status="PASS" signature="hotelList()[pri:2, instance:com.day_2.FabHotel_Search@ae45eb6]" name="hotelList" duration-ms="13857" started-at="2018-02-21T00:10:22Z" finished-at="2018-02-21T00:10:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hotelList -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.day_2.FabHotel_Search@3532ec19]" name="afterTest" is-config="true" duration-ms="2255" started-at="2018-02-20T00:22:37Z" finished-at="2018-02-20T00:22:39Z">
+        <test-method status="PASS" signature="fianlHotel_Book()[pri:3, instance:com.day_2.FabHotel_Search@ae45eb6]" name="fianlHotel_Book" duration-ms="4231" started-at="2018-02-21T00:10:36Z" finished-at="2018-02-21T00:10:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fianlHotel_Book -->
+        <test-method status="FAIL" signature="review_Details()[pri:4, instance:com.day_2.FabHotel_Search@ae45eb6]" name="review_Details" duration-ms="40853" started-at="2018-02-21T00:10:40Z" finished-at="2018-02-21T00:11:21Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //input[contains(@class,'user-name required_param required_param_field')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'RAJESH-KUMAR4', ip: '192.168.1.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\rajesh.kumar41\AppData\Local\Temp\rust_mozprofile.BiuBD2mCxbhc, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, proxy=Proxy(direct), moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=15568, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 800cdb38-6511-47ff-aab1-3e6f27bebc45
+*** Element info: {Using=xpath, value=//input[contains(@class,'user-name required_param required_param_field')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[contains(@class,'user-name required_param required_param_field')]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
+System info: host: 'RAJESH-KUMAR4', ip: '192.168.1.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\rajesh.kumar41\AppData\Local\Temp\rust_mozprofile.BiuBD2mCxbhc, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, moz:headless=false, platform=XP, proxy=Proxy(direct), moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=58.0.2, platformVersion=6.1, moz:processID=15568, browserName=firefox, javascriptEnabled=true, platformName=XP, moz:webdriverClick=true}]
+Session ID: 800cdb38-6511-47ff-aab1-3e6f27bebc45
+*** Element info: {Using=xpath, value=//input[contains(@class,'user-name required_param required_param_field')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:416)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:518)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:408)
+	at com.day_2.FabHotel_Search.review_Details(FabHotel_Search.java:186)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- review_Details -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.day_2.FabHotel_Search@ae45eb6]" name="afterTest" is-config="true" duration-ms="1560" started-at="2018-02-21T00:11:21Z" finished-at="2018-02-21T00:11:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
