@@ -5,9 +5,12 @@
     <classes>
       <class name="com.day_2.FabHotel_Search">
         <methods>
+          <include name="finalHotel_Book"/>
+          <include name="searchHotel"/>
           <include name="afterTest"/>
+          <include name="BrowserSetup"/>
+          <include name="hotelList"/>
           <include name="review_Details"/>
-          <include name="beforeTest"/>
         </methods>
       </class> <!-- com.day_2.FabHotel_Search -->
     </classes>
