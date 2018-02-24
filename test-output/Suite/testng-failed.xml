@@ -31,4 +31,19 @@
       </class> <!-- com.day_2.FabHotel_Search -->
     </classes>
   </test> <!-- chromeTest(failed) -->
+  <test name="firefoxTest(failed)" parallel="tests">
+    <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="com.day_2.FabHotel_Search">
+        <methods>
+          <include name="finalHotel_Book"/>
+          <include name="searchHotel"/>
+          <include name="afterTest"/>
+          <include name="BrowserSetup"/>
+          <include name="hotelList"/>
+          <include name="review_Details"/>
+        </methods>
+      </class> <!-- com.day_2.FabHotel_Search -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

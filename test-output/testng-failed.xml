@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]" parallel="tests">
-  <test name="IETest(failed)(failed)" parallel="tests">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="IETest(failed)" parallel="tests">
     <parameter name="BROWSER" value="ie"/>
     <classes>
       <class name="com.day_2.FabHotel_Search">
@@ -15,8 +15,8 @@
         </methods>
       </class> <!-- com.day_2.FabHotel_Search -->
     </classes>
-  </test> <!-- IETest(failed)(failed) -->
-  <test name="chromeTest(failed)(failed)" parallel="tests">
+  </test> <!-- IETest(failed) -->
+  <test name="chromeTest(failed)" parallel="tests">
     <parameter name="BROWSER" value="chrome"/>
     <classes>
       <class name="com.day_2.FabHotel_Search">
@@ -30,5 +30,20 @@
         </methods>
       </class> <!-- com.day_2.FabHotel_Search -->
     </classes>
-  </test> <!-- chromeTest(failed)(failed) -->
-</suite> <!-- Failed suite [Failed suite [Suite]] -->
+  </test> <!-- chromeTest(failed) -->
+  <test name="firefoxTest(failed)" parallel="tests">
+    <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="com.day_2.FabHotel_Search">
+        <methods>
+          <include name="finalHotel_Book"/>
+          <include name="searchHotel"/>
+          <include name="afterTest"/>
+          <include name="BrowserSetup"/>
+          <include name="hotelList"/>
+          <include name="review_Details"/>
+        </methods>
+      </class> <!-- com.day_2.FabHotel_Search -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
